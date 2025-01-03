@@ -54,10 +54,13 @@
   }
 
 
-  .product__footer {
+.product__footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    height: 2rem;
+    border-top: 1px solid rgb(201, 199, 199);
+    border-bottom: 1px solid rgb(201, 199, 199);
 }
 
 .product__footer::after {
@@ -65,15 +68,17 @@
 }
 
 .product__footer::before {
-
+    
 }
 
 .product__compare {
     display: grid;
+    border-right: 1px solid rgb(201, 199, 199);
 }
 
 .product__availability {
     display: grid;
+    border-right: 1px solid rgb(201, 199, 199);
 }
 
 .product__installments {
